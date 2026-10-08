@@ -1,0 +1,156 @@
+
+=== AIS, coldstart: 8 best configurations ===
+  N  n_mcmc  schedule  beta_min  proposal   mean    se  n
+100       1 geometric     0.010      diag -2.339 0.073 10
+100      10 geometric     0.010 isotropic -2.301 0.059 10
+100      10 geometric     0.010      diag -2.272 0.087 10
+100       2 geometric     0.010 isotropic -2.256 0.050 10
+100       2 geometric     0.001 isotropic -2.249 0.065 10
+100       5 geometric     0.010      diag -2.246 0.061 10
+100       2 geometric     0.001      diag -2.245 0.096 10
+100       2 geometric     0.010      diag -2.242 0.112 10
+
+=== AIS, mixture: 8 best configurations ===
+  N  n_mcmc  schedule  beta_min  proposal   mean    se  n
+100       2 geometric     0.010 isotropic -2.298 0.122 10
+100       5 geometric     0.010      diag -2.241 0.119 10
+100       2 geometric     0.001      diag -2.172 0.082 10
+100       2 geometric     0.010      diag -2.155 0.124 10
+100      20 geometric     0.000      diag -2.108 0.103 10
+100      20 geometric     0.010 isotropic -2.092 0.098 10
+100      10 geometric     0.001      diag -2.059 0.106 10
+100       1 geometric     0.001      diag -2.042 0.100 10
+
+=== AIS, anisotropic: 8 best configurations ===
+  N  n_mcmc  schedule  beta_min  proposal   mean    se  n
+100       1 geometric     0.010 isotropic -2.139 0.082 10
+100       2 geometric     0.010 isotropic -2.136 0.106 10
+100       2 geometric     0.001 isotropic -2.072 0.102 10
+100      10 geometric     0.010      diag -2.062 0.111 10
+100       2 geometric     0.010      diag -2.013 0.071 10
+100       2 geometric     0.001      diag -2.007 0.069 10
+100       5 geometric     0.010 isotropic -2.007 0.097 10
+100       1 geometric     0.010      diag -1.994 0.076 10
+
+=== AIS, bayreg: 8 best configurations ===
+  N  n_mcmc  schedule  beta_min  proposal  mean    se  n
+100      20 geometric     0.010 isotropic 0.774 0.001 10
+100      10 geometric     0.010 isotropic 0.773 0.001 10
+100       1 geometric     0.000 isotropic 0.771 0.001 10
+100       5    linear     0.001 isotropic 0.771 0.002 10
+100      10    linear     0.001      diag 0.771 0.001 10
+300       2 geometric     0.010 isotropic 0.771 0.001 10
+300      10 geometric     0.010 isotropic 0.771 0.002 10
+100       2    linear     0.001 isotropic 0.771 0.002 10
+AIS tuning: 448 s
+
+=== KAMH, coldstart: 8 best configurations ===
+   scale  sigma  n_chains  burn   mean    se  n
+adaptive    5.0        10 0.250 -5.401 0.078  4
+adaptive    5.0         1 0.250 -5.381 0.027  4
+adaptive    5.0        10 0.500 -5.272 0.038  4
+adaptive median        10 0.500 -5.212 0.038  4
+adaptive median        10 0.250 -5.200 0.013  4
+adaptive    5.0        50 0.250 -5.190 0.055  4
+adaptive median         1 0.250 -5.169 0.080  4
+adaptive    5.0         1 0.500 -5.138 0.036  4
+acceptance rates: {('adaptive', '5.0', 1): 0.234, ('adaptive', '5.0', 10): 0.232, ('adaptive', '5.0', 50): 0.208, ('adaptive', 'median', 1): 0.231, ('adaptive', 'median', 10): 0.215, ('adaptive', 'median', 50): 0.17, ('paper', '5.0', 1): 0.001, ('paper', '5.0', 10): 0.007, ('paper', '5.0', 50): 0.033, ('paper', 'median', 1): 0.001, ('paper', 'median', 10): 0.006, ('paper', 'median', 50): 0.026}
+
+=== KAMH, mixture: 8 best configurations ===
+   scale  sigma  n_chains  burn   mean    se  n
+adaptive    5.0        50 0.500 -3.890 0.389  4
+adaptive median        10 0.500 -3.370 0.344  4
+adaptive    5.0        50 0.250 -3.301 0.533  4
+adaptive median        10 0.250 -3.276 0.273  4
+adaptive median        50 0.500 -2.805 0.035  4
+adaptive    5.0        10 0.500 -2.776 0.274  4
+adaptive    5.0        10 0.250 -2.772 0.272  4
+adaptive    5.0        10 0.000 -2.547 0.190  4
+acceptance rates: {('adaptive', '5.0', 1): 0.234, ('adaptive', '5.0', 10): 0.231, ('adaptive', '5.0', 50): 0.215, ('adaptive', 'median', 1): 0.232, ('adaptive', 'median', 10): 0.22, ('adaptive', 'median', 50): 0.182, ('paper', '5.0', 1): 0.001, ('paper', '5.0', 10): 0.004, ('paper', '5.0', 50): 0.026, ('paper', 'median', 1): 0.001, ('paper', 'median', 10): 0.003, ('paper', 'median', 50): 0.021}
+
+=== KAMH, anisotropic: 8 best configurations ===
+   scale  sigma  n_chains  burn   mean    se  n
+adaptive    5.0        10 0.250 -3.252 0.508  4
+adaptive    5.0        10 0.500 -3.236 0.497  4
+adaptive median        10 0.500 -3.096 0.142  4
+adaptive median        10 0.250 -3.030 0.129  4
+adaptive    5.0        10 0.000 -2.730 0.198  4
+   paper    5.0        10 0.250 -2.692 0.163  4
+adaptive    5.0        50 0.500 -2.665 0.427  4
+   paper    5.0        10 0.500 -2.639 0.148  4
+acceptance rates: {('adaptive', '5.0', 1): 0.234, ('adaptive', '5.0', 10): 0.231, ('adaptive', '5.0', 50): 0.215, ('adaptive', 'median', 1): 0.234, ('adaptive', 'median', 10): 0.224, ('adaptive', 'median', 50): 0.185, ('paper', '5.0', 1): 0.001, ('paper', '5.0', 10): 0.005, ('paper', '5.0', 50): 0.026, ('paper', 'median', 1): 0.001, ('paper', 'median', 10): 0.003, ('paper', 'median', 50): 0.021}
+
+=== KAMH, bayreg: 8 best configurations ===
+   scale  sigma  n_chains  burn  mean    se  n
+adaptive    5.0        50 0.000 0.776 0.000  4
+adaptive median         1 0.500 0.775 0.001  4
+adaptive median        50 0.000 0.775 0.001  4
+adaptive    5.0         1 0.250 0.775 0.000  4
+adaptive    5.0        50 0.250 0.775 0.000  4
+adaptive median        50 0.250 0.775 0.001  4
+adaptive    5.0        50 0.500 0.775 0.000  4
+adaptive median        50 0.500 0.775 0.001  4
+acceptance rates: {('adaptive', '5.0', 1): 0.235, ('adaptive', '5.0', 10): 0.232, ('adaptive', '5.0', 50): 0.211, ('adaptive', 'median', 1): 0.235, ('adaptive', 'median', 10): 0.234, ('adaptive', 'median', 50): 0.198, ('paper', '5.0', 1): 0.002, ('paper', '5.0', 10): 0.012, ('paper', '5.0', 50): 0.055, ('paper', 'median', 1): 0.002, ('paper', 'median', 10): 0.01, ('paper', 'median', 50): 0.052}
+KAMH tuning: 2946 s
+{
+  "coldstart": {
+    "ais": {
+      "N": 100,
+      "n_mcmc": 1,
+      "schedule": "geometric",
+      "beta_min": 0.01,
+      "proposal": "diag"
+    },
+    "kamh": {
+      "scale": "adaptive",
+      "sigma": 5.0,
+      "n_chains": 10,
+      "burn": 0.25
+    }
+  },
+  "mixture": {
+    "ais": {
+      "N": 100,
+      "n_mcmc": 2,
+      "schedule": "geometric",
+      "beta_min": 0.01,
+      "proposal": "isotropic"
+    },
+    "kamh": {
+      "scale": "adaptive",
+      "sigma": 5.0,
+      "n_chains": 50,
+      "burn": 0.5
+    }
+  },
+  "anisotropic": {
+    "ais": {
+      "N": 100,
+      "n_mcmc": 1,
+      "schedule": "geometric",
+      "beta_min": 0.01,
+      "proposal": "isotropic"
+    },
+    "kamh": {
+      "scale": "adaptive",
+      "sigma": 5.0,
+      "n_chains": 10,
+      "burn": 0.25
+    }
+  },
+  "bayreg": {
+    "ais": {
+      "N": 100,
+      "n_mcmc": 20,
+      "schedule": "geometric",
+      "beta_min": 0.01,
+      "proposal": "isotropic"
+    },
+    "kamh": {
+      "scale": "adaptive",
+      "sigma": 5.0,
+      "n_chains": 50,
+      "burn": 0.0
+    }
+  }
+}

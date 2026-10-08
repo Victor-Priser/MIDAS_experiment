@@ -1,0 +1,16 @@
+  written results/coldstart/ais_tuned.csv
+coldstart / ais_tuned : 11 s
+  written results/coldstart/kamh_tuned.csv
+coldstart / kamh_tuned : 417 s
+  written results/mixture/ais_tuned.csv
+mixture / ais_tuned : 19 s
+  written results/mixture/kamh_tuned.csv
+mixture / kamh_tuned : 247 s
+  written results/anisotropic/ais_tuned.csv
+anisotropic / ais_tuned : 32 s
+  written results/anisotropic/kamh_tuned.csv
+anisotropic / kamh_tuned : 440 s
+  written results/bayreg/ais_tuned.csv
+bayreg / ais_tuned : 52 s
+  written results/bayreg/kamh_tuned.csv
+bayreg / kamh_tuned : 491 s

@@ -1,0 +1,36 @@
+  written results/coldstart/midas_eta0.25.csv
+  written results/coldstart/midas_eta0.5.csv
+  written results/coldstart/midas_eta0.75.csv
+  written results/coldstart/midas_eta1.csv
+coldstart / midas : 633 s
+  written results/coldstart/ais.csv
+coldstart / ais : 4 s
+  written results/coldstart/kamh.csv
+coldstart / kamh : 339 s
+  written results/mixture/midas_eta0.25.csv
+  written results/mixture/midas_eta0.5.csv
+  written results/mixture/midas_eta0.75.csv
+  written results/mixture/midas_eta1.csv
+mixture / midas : 656 s
+  written results/mixture/ais.csv
+mixture / ais : 6 s
+  written results/mixture/kamh.csv
+mixture / kamh : 514 s
+  written results/anisotropic/midas_eta0.25.csv
+  written results/anisotropic/midas_eta0.5.csv
+  written results/anisotropic/midas_eta0.75.csv
+  written results/anisotropic/midas_eta1.csv
+anisotropic / midas : 626 s
+  written results/anisotropic/ais.csv
+anisotropic / ais : 7 s
+  written results/anisotropic/kamh.csv
+anisotropic / kamh : 479 s
+  written results/bayreg/midas_eta0.25.csv
+  written results/bayreg/midas_eta0.5.csv
+  written results/bayreg/midas_eta0.75.csv
+  written results/bayreg/midas_eta1.csv
+bayreg / midas : 1137 s
+  written results/bayreg/ais.csv
+bayreg / ais : 44 s
+  written results/bayreg/kamh.csv
+bayreg / kamh : 342 s

@@ -1,0 +1,62 @@
+{
+  "coldstart": {
+    "ais": {
+      "N": 30,
+      "n_mcmc": 20,
+      "schedule": "geometric",
+      "beta_min": 0.01,
+      "proposal": "isotropic"
+    },
+    "kamh": {
+      "scale": "adaptive",
+      "sigma": 5.0,
+      "n_chains": 10,
+      "burn": 0.25
+    }
+  },
+  "mixture": {
+    "ais": {
+      "N": 100,
+      "n_mcmc": 2,
+      "schedule": "geometric",
+      "beta_min": 0.01,
+      "proposal": "diag"
+    },
+    "kamh": {
+      "scale": "adaptive",
+      "sigma": 5.0,
+      "n_chains": 10,
+      "burn": 0.25
+    }
+  },
+  "anisotropic": {
+    "ais": {
+      "N": 100,
+      "n_mcmc": 10,
+      "schedule": "geometric",
+      "beta_min": 0.01,
+      "proposal": "diag"
+    },
+    "kamh": {
+      "scale": "adaptive",
+      "sigma": 5.0,
+      "n_chains": 10,
+      "burn": 0.5
+    }
+  },
+  "bayreg": {
+    "ais": {
+      "N": 30,
+      "n_mcmc": 20,
+      "schedule": "geometric",
+      "beta_min": 0.03,
+      "proposal": "diag"
+    },
+    "kamh": {
+      "scale": "adaptive",
+      "sigma": 5.0,
+      "n_chains": 50,
+      "burn": 0.0
+    }
+  }
+}
